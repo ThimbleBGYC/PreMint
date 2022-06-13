@@ -58,7 +58,7 @@
   top: 0;
   width: 220px;
   max-width: 280px;
-  min-height: 851px; }
+  min-height: 780px; }
   .photos-container > div:nth-child(even) {
     transform: rotate(6deg); }
   .photos-container > div:nth-child(odd) {
@@ -107,7 +107,7 @@
           left: 29px; } }
 
 .has-photos {
-  min-height: 1200px; }
+  min-height: 851px; }
   @media screen and (max-width: 575px) {
     .has-photos {
       padding-top: 100px; } }
