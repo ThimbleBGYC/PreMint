@@ -10,7 +10,7 @@ export default function About() {
             },
             {
                 title: "Board Game",
-                content: `Owners of all 6 Suspects will receive a custom made version of the game.`,
+                content: `Hodlers who own all 6 Suspects (in the same wallet) at the time Mr. Boddy is revealed will receive a custom made version of the game.`,
             },
             {
                 title: "Murder Mystery Game (IRL)",
