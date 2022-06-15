@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 100px; }
+  padding-top: 10px; }
 
 .counter-wrapper {
   width: 200px;
@@ -58,7 +58,7 @@
   top: 0;
   width: 220px;
   max-width: 280px;
-  min-height: 780px; }
+  min-height: 851px; }
   .photos-container > div:nth-child(even) {
     transform: rotate(6deg); }
   .photos-container > div:nth-child(odd) {
@@ -107,7 +107,7 @@
           left: 29px; } }
 
 .has-photos {
-  min-height: 851px; }
+  min-height: 1200px; }
   @media screen and (max-width: 575px) {
     .has-photos {
       padding-top: 100px; } }
