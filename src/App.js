@@ -6,8 +6,8 @@ import {useState} from "react";
 import Footer from "./Footer/Footer";
 
 function App() {
-    const [preMint, setPreMint] = useState(true) //set this to control mint-status
-    const [showMint, setShowMint] = useState(false) //set this to control mint-button
+    const [preMint, setPreMint] = useState(false) //set this to control mint-status
+    const [showMint, setShowMint] = useState(true) //set this to control mint-button
 
     return (
         <>
