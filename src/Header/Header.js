@@ -1,4 +1,6 @@
 import {useState} from "react";
+import da from "../assets/dapp.png"
+
 import g3 from "../assets/Suspect poster.png"
 import g2 from "../assets/Rooms poster.png"
 import g1 from "../assets/Murder weapons poster.png"
@@ -14,17 +16,10 @@ export default function Header({isPreMint, showMintButton}) {
     function counter(showMint) {
         return (
             <>
-                <div className={"counter-wrapper mx-auto"}>
-                    <button onClick={() => setQty(c => c - 1)}> -</button>
-                    <input type="number" value={qty}/>
-                    <button onClick={() => setQty(c => c + 1)}> +</button>
-                </div>
-                <div className={"text-center"}>
-                    <p className={"p my-3"}>0.025 ETH + Gas Fee</p>
-                    {showMint ? <button className={"btn btn-blue"}>Mint NFT</button>
-                        : <button className={"btn btn-blue"}>Connect Wallet</button>}
-
-                    <p className={"my-3 p"}>0 / 2,000</p>
+                <div className="nav-item">
+                            <a className="nav-link" href="https://mint.boardgameyawnclub.xyz/">
+                                <img src={da} alt="" className={"img-fluid"} width={500}/>
+                            </a>
                 </div>
             </>
         )
